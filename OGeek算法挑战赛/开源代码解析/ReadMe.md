@@ -13,7 +13,7 @@
 5.用句向量聚类，类别数与tags数目差不多，dict存储的是index和预测的聚类类别的对应字典  
 6.用聚类特征来构造单字段点击率特征  
 7.prefix、complete_prefix与title句向量的点积  
-8.query_prediction与title句向量构造的特征，共三个：  
+8. query_prediction与title句向量构造的特征，共三个：  
    prediction中最大搜索率中前三个与title句向量点积相似度的最大值  
    prediction中最大搜索率中前三个与title句向量点积相似度的平均值  
    prediction中最大搜索率中前三个与title句向量点积相似度与搜索率的乘积的和  
