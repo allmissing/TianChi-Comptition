@@ -1,8 +1,4 @@
-# 开源代码解析
-
-## 代码来源
-
-## 统计特征工程解析
+## 统计特征工程
 #### 构造过程
 1. 用query_prediction补全prefix生成complete_prefix  
 2. 长度相关特征  
@@ -30,7 +26,7 @@
 8. query_prediction相关特征：  
    prediction中最大搜索率、提供的总搜索率、平均搜索率，提供了几个prediction  
    
-## 词向量特征工程解析
+## 词向量特征工程
 #### 构造过程
 1. 用query_prediction补全prefix生成complete_prefix  
 2. 清除prefix、title、complete_prefix中除了数字、字母、汉字以外的字符  
